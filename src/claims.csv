@@ -1,0 +1,6 @@
+id,claimDate,insuredPerson,cardNumber,examDate,documents,claimAmount,status,receiverBank,receiverBankName,receiverBankNumber
+f1234567890,2023-01-15,John Doe,1234567890,2023-01-20,"claim1.pdf,claim2.pdf",1000.00,New,ABC Bank,John Doe,123456789
+f2345678901,2023-02-20,Jane Smith,2345678901,2023-02-25,"claim3.pdf,claim4.pdf",1500.00,Processing,XYZ Bank,Jane Smith,234567890
+f3456789012,2023-03-10,Alice Johnson,3456789012,2023-03-15,"claim5.pdf,claim6.pdf",2000.00,Done,PQR Bank,Alice Johnson,345678901
+f4567890123,2023-04-05,Bob Brown,4567890123,2023-04-10,"claim7.pdf,claim8.pdf",1200.00,New,DEF Bank,Bob Brown,456789012
+f5678901234,2023-05-20,Emily Davis,5678901234,2023-05-25,"claim9.pdf,claim10.pdf",1800.00,Processing,GHI Bank,Emily Davis,567890123

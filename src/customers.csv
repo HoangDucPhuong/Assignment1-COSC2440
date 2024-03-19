@@ -1,0 +1,6 @@
+id,fullName,insuranceCardId,claims
+c1234567,John Doe,1234567890,1,2,3
+c2345678,Jane Smith,2345678901,4,5,6
+c3456789,Alice Johnson,3456789012,7,8,9
+c4567890,Bob Brown,4567890123,10,11,12
+c5678901,Emily Davis,5678901234,13,14,15

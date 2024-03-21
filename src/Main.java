@@ -3,6 +3,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -66,7 +67,6 @@ public class Main {
         return insuranceCards;
     }
 
-
     private static List<Claim> loadClaims(String filename) {
         List<Claim> claims = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
@@ -81,12 +81,10 @@ public class Main {
                 String insuredPerson = data[2];
                 long cardNumber = Long.parseLong(data[3]);
                 Date examDate = sdf.parse(data[4]);
-                List<String> documents = new ArrayList<>();
-                String[] docArray = data[5].split(",");
-                for (String doc : docArray) {
-                    documents.add(doc);
-                }
-                double claimAmount = Double.parseDouble(data[6]); // Parse claim amount at index 6
+                // Parse documents list
+                List<String> documents = Arrays.asList(data[5].split(","));
+                // Parse claim amount
+                double claimAmount = Double.parseDouble(data[6]);
                 String status = data[7];
                 String receiverBank = data[8];
                 String receiverBankName = data[9];

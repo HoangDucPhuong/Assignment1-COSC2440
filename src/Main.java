@@ -17,12 +17,10 @@ public class Main {
 
         // Initialize ClaimProcessManagerImpl with loaded data
         ClaimProcessManager claimProcessManager = new ClaimProcessManagerImpl(claims);
+
+        // Create UIManager and start UI interaction
         UIManager uiManager = new UIManager(claimProcessManager);
-
-        // Implement the text-based UI program
-        // Allow users to interact with the system
-
-        // Update data files before exiting the program
+        uiManager.handleUserInput();
     }
 
     private static List<Customer> loadCustomers(String filename) {

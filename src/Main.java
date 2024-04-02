@@ -30,6 +30,7 @@ public class Main {
         try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
             String line;
             while ((line = br.readLine()) != null) {
+                System.out.println("" + line); // Print out the line for debugging
                 String[] data = line.split(",");
                 String id = data[0];
                 String fullName = data[1];
@@ -45,14 +46,15 @@ public class Main {
         }
         return customers;
     }
-
     private static List<InsuranceCard> loadInsuranceCards(String filename) {
         List<InsuranceCard> insuranceCards = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
             // Skip the header line
             br.readLine();
+            System.out.println();
             String line;
             while ((line = br.readLine()) != null) {
+                System.out.println("" + line); // Print out the line for debugging
                 String[] data = line.split(",");
                 long cardNumber = Long.parseLong(data[0]);
                 String cardHolder = data[1];
@@ -72,8 +74,10 @@ public class Main {
         try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
             // Skip the header line
             br.readLine();
+            System.out.println();
             String line;
             while ((line = br.readLine()) != null) {
+                System.out.println("" + line); // Print out the line for debugging
                 String[] data = line.split(",");
                 String id = data[0];
                 SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");

@@ -1,4 +1,4 @@
-id,claimDate,insuredPerson,cardNumber,examDate,documents,claimAmount,status,receiverBank,receiverBankName,receiverBankNumber
+﻿id,claimDate,insuredPerson,cardNumber,examDate,documents,claimAmount,status,receiverBank,receiverBankName,receiverBankNumber
 f1234567890,2023-01-15,John Doe,1234567890,2023-01-20,"claim1.pdf",1000.00,New,ABC Bank,John Doe,123456789
 f2345678901,2023-02-20,Jane Smith,2345678901,2023-02-25,"claim3.pdf",1500.00,Processing,XYZ Bank,Jane Smith,234567890
 f3456789012,2023-03-10,Alice Johnson,3456789012,2023-03-15,"claim5.pdf",2000.00,Done,PQR Bank,Alice Johnson,345678901

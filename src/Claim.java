@@ -30,6 +30,9 @@ public class Claim {
         this.receiverBankNumber = receiverBankNumber;
     }
 
-    // Getters and setters
-    // Implement as needed
+    public String getId() {
+        return id;
+    }
+
+    // Other getters and setters
 }

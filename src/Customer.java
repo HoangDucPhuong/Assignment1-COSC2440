@@ -1,6 +1,10 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author <Hoang Duc Phuong - s3885751>
+ */
+
 public class Customer {
     private String id;
     private String fullName;

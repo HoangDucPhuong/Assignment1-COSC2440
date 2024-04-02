@@ -6,6 +6,10 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.HashMap;
 
+/**
+ * @author <Hoang Duc Phuong - s3885751>
+ */
+
 public class ClaimProcessManagerImpl implements ClaimProcessManager {
     private Map<String, Claim> claimMap;
 

@@ -1,6 +1,10 @@
 import java.util.Date;
 import java.util.List;
 
+/**
+ * @author <Hoang Duc Phuong - s3885751>
+ */
+
 public class Claim {
     private String id;
     private Date claimDate;

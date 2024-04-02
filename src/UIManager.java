@@ -9,6 +9,10 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * @author <Hoang Duc Phuong - s3885751>
+ */
+
 public class UIManager {
     private ClaimProcessManager claimProcessManager;
     private Scanner scanner;

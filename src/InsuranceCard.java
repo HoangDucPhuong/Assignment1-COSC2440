@@ -1,5 +1,9 @@
 import java.util.Date;
 
+/**
+ * @author <Hoang Duc Phuong - s3885751>
+ */
+
 public class InsuranceCard {
     private long cardNumber;
     private String cardHolder;

@@ -34,5 +34,43 @@ public class Claim {
         return id;
     }
 
-    // Other getters and setters
+    public Date getClaimDate() {
+        return claimDate;
+    }
+
+    public String getInsuredPerson() {
+        return insuredPerson;
+    }
+
+    public long getCardNumber() {
+        return cardNumber;
+    }
+
+    public Date getExamDate() {
+        return examDate;
+    }
+
+    public List<String> getDocuments() {
+        return documents;
+    }
+
+    public double getClaimAmount() {
+        return claimAmount;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public String getReceiverBank() {
+        return receiverBank;
+    }
+
+    public String getReceiverBankName() {
+        return receiverBankName;
+    }
+
+    public String getReceiverBankNumber() {
+        return receiverBankNumber;
+    }
 }

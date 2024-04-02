@@ -6,4 +6,5 @@ public interface ClaimProcessManager {
     void delete(String claimId);
     Claim getOne(String claimId);
     List<Claim> getAll();
+    void writeToCsvFile(String filename); // Add this method to the interface
 }
